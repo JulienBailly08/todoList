@@ -8,6 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FooterComponent } from './component/footer/footer.component';
 import { HeaderComponent } from './component/header/header.component';
 import { DragboxComponent } from './component/dragbox/dragbox.component';
+import { HomeComponent } from './component/home/home.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { DragboxComponent } from './component/dragbox/dragbox.component';
     FooterComponent,
     HeaderComponent,
     DragboxComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
