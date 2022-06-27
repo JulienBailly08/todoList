@@ -8,7 +8,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export class DragboxComponent implements OnInit {
 
 
-  @Input() prout:any;
+  @Input() todo:any;
   constructor() { }
 
   ngOnInit(): void {

@@ -9,9 +9,9 @@ import { TodosService } from 'src/app/services/todos.service';
 })
 export class HomeComponent implements OnInit {
 
-  todoList:any;
-  
-  constructor(private todoService : TodosService) { }
+  todoList: any;
+
+  constructor(private todoService: TodosService) { }
 
   ngOnInit(): void {
     this.todoList = this.todoService.getTodoList();

@@ -1,1 +1,6 @@
-<app-dragbox [prout]="todoList[0]"></app-dragbox>
+<div class="box">
+  <app-dragbox
+    *ngFor="let todoElement of todoList"
+    [todo]="todoElement"
+  ></app-dragbox>
+</div>
