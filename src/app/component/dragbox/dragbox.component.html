@@ -1,7 +1,7 @@
-
-  <div class="post-it" cdkDragBoundary=".box" cdkDrag>
-    <div class="sticky taped">
-      <h1>{{todo.attributes.title}}</h1>
-      <p>{{todo.attributes.description}}</p>
-    </div>
+<div class="post-it" cdkDragBoundary=".box" cdkDrag>
+  <div class="sticky taped">
+    <h1>{{ todo.attributes.title }}</h1>
+    <p>{{ todo.attributes.description }}</p>
+    <span>Tache terminée : {{todo.attributes.isDone}}</span>
   </div>
+</div>
