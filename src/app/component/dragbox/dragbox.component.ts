@@ -6,9 +6,9 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./dragbox.component.css']
 })
 export class DragboxComponent implements OnInit {
-
-
+  
   @Input() todo:any;
+  
   constructor() { }
 
   ngOnInit(): void {

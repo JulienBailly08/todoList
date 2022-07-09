@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  apiUrl: 'http://192.168.1.10:1337/api/'
+  apiUrl: 'http://julienbaillyapi.ddns.net:20845/api/'
 };
 
 /*
