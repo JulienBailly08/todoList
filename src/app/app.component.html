@@ -1,7 +1,12 @@
-
-        <app-header></app-header>
-
-        <router-outlet></router-outlet>
-        
-        <app-footer></app-footer>
-
+<div class="application">
+  <app-header></app-header>
+  <div class="affichage">
+    <div class="sidepanel">
+      <app-sidepanel></app-sidepanel>
+    </div>
+    <div class="postIt">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+  <app-footer></app-footer>
+</div>

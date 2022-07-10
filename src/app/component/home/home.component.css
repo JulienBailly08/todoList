@@ -1,6 +1,7 @@
 .box {
-  width: 800px;
-  height: 600px;
+  width: auto;
+  height: 100vh;
+  max-height: 100%;
   max-width: 100%;
   border: dotted #ccc 2px;
   background: #eee;

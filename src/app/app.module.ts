@@ -13,7 +13,10 @@ import { HomeComponent } from './component/home/home.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { DragDropModule } from '@angular/cdk/drag-drop';
 import { MatIconModule } from '@angular/material/icon';
-import { MatMenuModule } from '@angular/material/menu'; 
+import { MatMenuModule } from '@angular/material/menu';
+import { SidepanelComponent } from './component/sidepanel/sidepanel.component'; 
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatCheckboxModule } from '@angular/material/checkbox';
 
 
 @NgModule({
@@ -23,6 +26,7 @@ import { MatMenuModule } from '@angular/material/menu';
     HeaderComponent,
     DragboxComponent,
     HomeComponent,
+    SidepanelComponent,
   ],
   imports: [
     BrowserModule,
@@ -32,7 +36,9 @@ import { MatMenuModule } from '@angular/material/menu';
     HttpClientModule,
     MatToolbarModule,
     MatIconModule,
-    MatMenuModule
+    MatMenuModule,
+    MatSidenavModule,
+    MatCheckboxModule
   ],
   providers: [],
   bootstrap: [AppComponent]
